@@ -52,7 +52,7 @@ title project.asm
          
         mov ah, 02h 
         mov bh,00h 
-        mov dh, 10  ;row column 
+        mov dh, 10  ;row 10 
         mov dl,34   ;column 34
         int 10h  
         
